@@ -6,12 +6,12 @@ Este projeto consiste em uma API desenvolvida em .NET Core para gerenciar movime
 ## Tecnologias Utilizadas
 - .NET Core
 - Entity Framework Core
-- SQL Server
-- Docker
+- SQLite
+
 
 ## Requisitos
 - .NET Core SDK
-- SQL Server (ou Docker para executar o SQL Server em um contêiner)
+- SQLite (banco de dados embutido)
 
 ## Instalação e Execução
 1. Clone este repositório em sua máquina local.
@@ -22,8 +22,8 @@ Este projeto consiste em uma API desenvolvida em .NET Core para gerenciar movime
 6. Execute o comando `dotnet run` para iniciar a API.
 
 ## Endpoints
-- `POST /api/movements`: Cria um novo movimento financeiro.
-- `GET /api/accountbalance/{accountId}`: Retorna o saldo atual da conta corrente.
+- `POST /api/movimento`: Cria um novo movimento financeiro.
+- `GET /api/saldo`: Retorna o saldo atual da conta corrente.
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas encontrados.
